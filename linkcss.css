@@ -1,0 +1,63 @@
+body {
+	background-color: #C0C0C0;
+
+}
+.linkAndArticle
+ {
+	background-color: grey;
+	border:  1px;
+	padding: 5px;
+	height: 40%;
+	width: 98%;
+	border: 1px solid grey; 
+	border-radius: 20px;
+    margin-bottom:  5px;
+	position: center;
+
+}
+
+div div { width: 200px;
+	border: solid 1px;  
+	float: left;
+	margin: 8px;
+	padding: 3px;
+	background-color: white;
+    position: relative;
+}
+main {border: 1px solid;
+	float: left ;
+	padding: 5px;
+	background-color: white;
+        
+
+}
+
+main div div{
+	border: solid 1px;
+	background-color: tan;
+
+}
+a {
+	text-decoration: none;
+}
+nav p {
+	text-decoration: underline;
+	font-size: 21px;
+}
+
+a:visited { color: blue; 
+}
+ 
+a:hover {
+ 	text-decoration: underline;
+ }
+ 
+ a:hover { text-decoration: underline; 
+ }
+ a:active {
+ 	color: grey;
+ }
+:target[id] {
+	text-decoration: underline;
+	font-style: italic;
+}
